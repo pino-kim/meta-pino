@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="raspberrypi" fetch="https://github.com/agherzan/" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/" />
+  <remote name="rpi-linux" fetch="https://github.com/raspberrypi/" />
+  <remote name="pino-kim" fetch="https://github.com/pino-kim/" />
+
+  <project name="meta-raspberrypi" remote="raspberrypi" path="src/meta-raspberrypi" revision="dunfell" />
+  <project name="openembedded-core" remote="openembedded" path="src/openembedded-core" revision="dunfell" />
+  <project name="meta-openembedded" remote="openembedded" path="src/meta-openembedded" revision="dunfell" />
+  <project name="bitbake" remote="openembedded" path="src/openembedded-core/bitbake" revision="1.46" />
+  <project name="linux" remote="rpi-linux" path="src/linux-raspberry" revision="rpi-5.4.y" />
+  <project name="meta-pino" remote="pino-kim" path="src/meta-pino" revision="dunfell" />
+
+</manifest>
